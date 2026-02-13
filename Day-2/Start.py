@@ -134,7 +134,6 @@ print(f"Price 2: {price_2:>10}") # 10 characters wide, right-aligned
 print(f"Price 2: {price_2:^10}") # 10 characters wide, centered
 print(f"Price 1: {price_1:+}") # Show the sign for positive numbers
 
-'''
 
 # --------------------- While loop:
 
@@ -145,3 +144,14 @@ while age < 0:
     age = int(input("Enter your age: "))
     
 print("Your age is valid.")
+
+'''
+
+# --------------------- For loop:
+
+for i in range(1, 11):
+    
+    if i == 5:
+        break
+    else:
+        print(i) # 1 to 4
