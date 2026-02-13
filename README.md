@@ -29,3 +29,18 @@ Python for all what ever is available in python like AI, ML, Data Science, Gener
 
 ## Day-3
 ## -------------------------------------------------------------
+20. nested loops ➿
+21. lists, sets, and tuples 🍎
+22. ⭐ shopping cart program 🛒
+23. 2D collections ⬜
+24. ⭐ quiz game 💯
+25. dictionaries 📙
+26. ⭐ concession stand program 🍿
+27. random numbers 🎲
+28. ⭐ number guessing game 🔢
+29. ⭐ rock, paper, scissors game 🗿
+30. ⭐ dice roller program ⚂
+
+
+## Day-4
+## -------------------------------------------------------------
