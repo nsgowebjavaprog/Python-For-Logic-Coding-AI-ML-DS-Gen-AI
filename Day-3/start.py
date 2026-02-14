@@ -150,5 +150,166 @@ temp_dict.clear()
 print("10. After Clear:", temp_dict)
 
 
+
+
+# 2D List
+
+# # # fruits = ["apple", "orange", "banana", "coconut"]
+# # # vegetables = ["carrot", "broccoli", "spinach"]
+# # # meats = ["chicken", "beef", "pork"]
+
+# # # grocery_list = [fruits, vegetables, meats]
+
+# # grocery_list = [["apple", "orange", "banana", "coconut"],
+# #                 ["carrot", "broccoli", "spinach"],
+# #                 ["chicken", "beef", "pork"]]
+
+# # for i in grocery_list:
+# #     for j in i:
+# #         print(j, end=" ")
+# #     print()
+
+# # print(grocery_list[0][1]) # Output: orange
+
+# # 2D List with number pad
+
+# num_pad = ((1, 2, 3),
+#            (4, 5, 6),
+#            (7, 8, 9),
+#            ("*", 0, "#"))
+
+# for row in num_pad:
+#     for num in row:
+#         print(num, end=" ")
+#     print()
+
+# ------- dictionaries
+
+capitals = {
+    "USA": "Washington D.C.",
+    "India": "New Delhi",
+    "china": "Beijing",
+    "Russia": "Moscow"
+}
+print(capitals)
+
+capitals = {
+    "USA": "Washington D.C.",
+    "India": "New Delhi",
+    "china": "Beijing",
+    "Russia": "Moscow"
+}
+capitals.update({"Japan": "Tokyo"})
+print(capitals)
+
+# 1️⃣ Access value using key
+print(capitals["India"])
+# Output: New Delhi
+
+# 2️⃣ Access value using get()
+print(capitals.get("USA"))
+# Output: Washington D.C.
+
+# 3️⃣ Get all keys
+print(capitals.keys())
+# Output: dict_keys(['USA', 'India', 'china', 'Russia'])
+
+# 4️⃣ Get all values
+print(capitals.values())
+# Output: dict_values(['Washington D.C.', 'New Delhi', 'Beijing', 'Moscow'])
+
+# 5️⃣ Get all key-value pairs
+print(capitals.items())
+# Output: dict_items([('USA', 'Washington D.C.'), ('India', 'New Delhi'), ('china', 'Beijing'), ('Russia', 'Moscow')])
+
+# 6️⃣ Add new key-value pair
+capitals["Japan"] = "Tokyo"
+print(capitals)
+# Output: Japan added
+
+# 7️⃣ Update value
+capitals["India"] = "Delhi"
+print(capitals["India"])
+# Output: Delhi
+
+# 8️⃣ Remove element using pop()
+capitals.pop("china")
+print(capitals)
+# Output: china removed
+
+# 9️⃣ Remove last inserted item using popitem()
+capitals.popitem()
+print(capitals)
+# Output: last item removed
+
+# 🔟 Check if key exists
+print("Russia" in capitals)
+# Output: True
+
+
+capitals = {
+    "USA": "Washington D.C.",
+    "India": "New Delhi",
+    "china": "Beijing",
+    "Russia": "Moscow"
+}
+# print(capitals)
+
+for key, value in capitals.items():
+    print(f"{key}: {value}")
+    
+
+
+# random numbers
+
+import random
+
+# print(random.randint(1, 10)) # random integer between 1 and 10
+
+options = ["A", "B", "C", "D"]
+option = random.choice(options)
+print(option)
+
+cards = ["2 of Hearts", "3 of Diamonds", "4 of Clubs", "5 of Spades"]
+random.shuffle(cards)
+print(cards)
+
+
+import random
+
+lowest = 1
+highest = 100
+
+random_number = random.randint(lowest, highest)
+# print(random_number)
+
+guesses = 0
+is_running = True
+
+print("Welcome to the Number Guessing Game!")
+print(f"I'm thinking of a number between {lowest} and {highest}.")
+
+while is_running:
+    try:
+        guess = int(input("Enter your guess: "))
+        guesses += 1
+        
+        if guess < random_number:
+            print("Too low! Try again.")
+        elif guess > random_number:
+            print("Too high! Try again.")
+        else:
+            print(f"Congratulations! You've guessed the number {random_number} in {guesses} guesses.")
+            is_running = False
+            
+    except ValueError:
+        print("Invalid input. Please enter a number.")
+        
+print("Game Over. Thanks for playing!")
+
+
 '''
+
+
+
 
