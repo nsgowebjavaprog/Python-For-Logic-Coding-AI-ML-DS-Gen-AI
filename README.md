@@ -44,3 +44,41 @@ Python for all what ever is available in python like AI, ML, Data Science, Gener
 
 ## Day-4
 ## -------------------------------------------------------------
+31. functions 📞
+32. default arguments 👍
+33. keyword arguments 🗝️
+34. *args & **kwargs 📦
+35. iterables 🔂
+36. membership operators 🔎
+37. list comprehensions 📃
+38. match-case statements 📆
+39. modules 📨
+40. scope resolution 🔬
+41. if name == 'main': 📥
+42. ⭐ banking program 💰
+43. ⭐ slot machine 🎰
+44. ⭐ encryption program 🔐
+45. ⭐ hangman game 🕺
+46. python object oriented programming 🚗
+47. class variables 🎓
+48. inheritance 👨‍👦‍👦
+49. multiple inheritance 🐟
+50. super() 🔴
+51. polymorphism 🎭
+52. duck typing 🦆
+53. static methods ⚡
+54. class methods 🏫
+55. magic methods 🌟
+56. @property ⚙️
+57. decorators 🎊
+58. exception handling 🚦
+59. file detection 🕵️‍♂️
+60. writing files ✍
+61. reading files 
+62.  dates & times 📅
+63. ⭐ alarm clock ⏰
+64. multithreading 🧵
+65. request API data ↩️
+66. ⭐ digital clock program 🕒
+67. ⭐ stopwatch program ⏱
+68. ⭐ weather API app ☀️
